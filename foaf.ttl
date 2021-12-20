@@ -1,0 +1,41 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/ZoricaKoceva/WBS_FOAF/master/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/ZoricaKoceva/WBS_FOAF/master/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/ZoricaKoceva/WBS_FOAF/master/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/ZoricaKoceva/WBS_FOAF/master/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Zorica Koceva" ;
+  foaf:title "Mrs" ;
+  foaf:givenname "Zorica" ;
+  foaf:family_name "Koceva" ;
+  foaf:nick "Zorche" ;
+  foaf:mbox_sha1sum "01278cb944b383bb33a9571efac59365c796bd47" ;
+  foaf:homepage <https://raw.githubusercontent.com/ZoricaKoceva/WBS_FOAF/master/foaf.ttl> ;
+  foaf:depiction <https://avatars.githubusercontent.com/u/45801406?v=4> ;
+  foaf:phone <tel:+38978845892> ;
+  foaf:workplaceHomepage <https://raw.githubusercontent.com/ZoricaKoceva/WBS_FOAF/master/www.linkedin.com/in/zorica-koceva-990725> ;
+  foaf:workInfoHomepage <https://www.finki.ukim.mk/mk/content/%D0%BA%D0%BE%D0%BC%D0%BF%D1%98%D1%83%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%BE-%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/mk> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Andrej Petrushev" ;
+    foaf:mbox_sha1sum "1906513e8c4f211bd62773aad24354e4356fe0c2" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/andrejpetrushev/WBS-FoaF/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Marko Markovikj" ;
+    foaf:mbox_sha1sum "990e034b5439fa80add1a1934346f3c24156b066" ;
+    rdfs:seeAlso <https://gp.mk/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Milosh Jovanovikj" ;
+    foaf:mbox_sha1sum "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
+    rdfs:seeAlso <https://mjovanovik.com/foaf.ttl>
+  ] .
